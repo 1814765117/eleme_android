@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/restaurant_head"
+        layout="@layout/above_title" />
+
+    <ListView
+        android:id="@+id/rsmenuListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="8">				<!--  linearlayout是vertical,所以weight也是垂直方向的，将food_bag始终挤到最底下-->
+    </ListView>
+    
+    
+ 	<include
+ 	    android:id="@+id/restaurant_bottom"
+ 	    layout="@layout/food_bag" 
+ 	    />
+    
+</LinearLayout>

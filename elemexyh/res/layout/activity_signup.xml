@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.elemexyh.activity.SignupActivity" >
+
+    <include
+        android:id="@+id/home_head"
+        layout="@layout/above_title" />
+
+    <EditText
+        android:id="@+id/signupNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_head"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:hint="用户名"					   
+        android:gravity="top|center">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/signupPwdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupNameText"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:hint="密码"					   
+        android:gravity="top|center"/>
+
+    <EditText
+        android:id="@+id/confirmPwdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupPwdText"
+        android:layout_centerHorizontal="true"
+        android:ems="10" 
+        android:hint="确认密码"					   
+        android:gravity="top|center"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#1E90FF"
+        android:textColor="#ffffff"
+        android:text="注册" />
+
+    <TextView
+        android:id="@+id/signupHintView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="点击顶部返回" />
+
+</RelativeLayout>

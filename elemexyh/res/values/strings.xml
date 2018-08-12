@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">elemexyh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_loginout">LoginoutActivity</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="title_activity_test_img">TestImgActivity</string>
+
+</resources>
