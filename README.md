@@ -1,2 +1,2 @@
 # eleme_android
-![img]
+![image](https://github.com/ADNAP7/eleme_android/blob/master/screenshorts/home1.JPG)
